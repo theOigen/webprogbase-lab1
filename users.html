@@ -1,24 +1,62 @@
-<!DOCTYPE HTML>
-<meta charset="utf-8">
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Users</title>
-        <meta name="description" content="BoringChat users web-page">
-        <meta name="author" content="Eugene Zayats">
-        <link href = "style.css" rel = "stylesheet">
+        <meta charset = "utf-8">
+        <title>BoringChat</title>
+        <meta name = "author" content = "Eugene Zayats">
+        <link href = "stylesheets/style.css" rel = "stylesheet">
     </head>
     <body>
-        <div class = "section">
-            <h1><span>List of users</span></h1>
-            <ul>
-                <li><a href="./user1.html">User1 (@theOigen)</a></li>
-                <li><a href="./user2.html">User2 (@goveo)</a></li>
-            </ul>
-            <br><br>
-            <a href="./index.html"><button>Back to main page</button></a>
-        </div>
-        <div class = "copyright">
-            &copy; 2018 BoringChat. All rights reserved.
+        <div class = "wrapper">
+            <header>
+                <img alt = "BoringChat logo" class = "circle-logo" src = "images/bchat.png">
+                <p align = "center" class = "bchat">BoringChat<br>
+                    <span id = "subtitle">a new era of messaging</span>
+                </p>
+            </header>
+            <div class = "menu">
+                <ul>
+                    <li><a href = "./index.html">Home</a></li>
+                    <li><a class = "active" href = "./users.html">Users</a></li>
+                    <li><a href = "./entities.html">Messages</a></li>
+                    <li><a href = "./about.html">About</a></li>
+                </ul>
+            </div>
+            <div id = "content">
+                <h1>Users</h1>
+                <div class = "u-table">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Login</th>
+                                <th>Fullname</th>
+                                <th>Registred</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href = "./users/1.html">
+                                        <span class = "online-dot"></span> _oigen
+                                    </a>
+                                </td>
+                                <td>Eugene Zayats</td>
+                                <td>13.09.2018</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href = "./users/2.html">
+                                        <span class = "offline-dot"></span> iamgoveo
+                                    </a>
+                                </td>
+                                <td>Yury Brusentsov</td>
+                                <td>15.09.2018</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class = "copyright">
+                &copy; 2018 BoringChat. All rights reserved.
+            </div>
         </div>
     </body>
 </html>

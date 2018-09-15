@@ -1,0 +1,240 @@
+#content {
+    font-family: Roboto, Helvetica;
+    margin: 10px;
+    margin-left: 240px;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 600px;
+    min-width: 920px;
+    background-color: #fff;
+}
+.wrapper {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+div.menu {
+    font-family: Roboto, Helvetica;
+    font-weight: bold;
+    min-height: 250px;
+    max-width: 200px;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    position: absolute;
+}
+div.user-info {
+    padding: 10px;
+    padding-bottom: 100px;
+    margin-left: 184px;
+    margin-top: 10px;
+}
+div.user-info span.user-data {
+    font-size: 15pt;
+    margin-top: 20px;
+    display: block;
+}
+div.user-info img {
+    height: 185px;
+    width: 185px;
+    border: 1.5px solid #4097e9;
+    border-radius: 50%;
+    float: left;
+    margin-right: 50px;
+    clear: both;
+}
+div.about {
+    margin: auto;
+    min-height: 100px;
+    min-width: 100px;
+    width: 500px;
+    padding: 15px;
+    border: 1px solid #4097e9;
+    background-color: white;
+    border-radius: 10px;
+}
+span.online-dot {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(3, 190, 3);
+    border-radius: 50%;
+    display: inline-block;
+}
+span.offline-dot {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+}
+div.u-table {
+    background: #307dd6;
+    border-radius: 20px;
+}
+.u-table table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+.u-table table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-radius: 20px;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px #ddd;
+    color: #fff;
+    width: 100%;
+}
+.u-table th, td {
+    padding: 15px;
+}
+td a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+td a:hover {
+    color: rgb(214, 214, 214);
+}
+
+div.ent-list {
+    background: #e0e0e0;
+    border-radius: 20px;
+}
+.ent-list ul {
+    padding: 20px;
+    min-width: 870px;
+}
+.ent-list li {
+    padding: 5px;
+    margin: 15px;
+    background: white;
+    border-radius: 20px;
+}
+.ent-list a {
+    width: 300px;
+    background: #307dd6;
+    border-radius: 20px;
+    color: white;
+}
+audio {
+    margin: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+li a {
+    display: block;
+    color: #33383b;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+li a.active {
+    background-color: #307dd6;
+    color: white;
+}
+.bchat {
+    font-family: Roboto, Helvetica;
+    font-size: 20pt;
+    color: #404649;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+#subtitle {
+    font-size: 15pt;
+    color: #53585c;
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    font-family: Roboto, 'Blade Runner';
+    font-size: 17pt;
+    color: #323638;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 3px dashed #4097e9;
+    padding: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-size: cover;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+header img {
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    width: 140px;
+    height: 140px;
+    margin: auto;
+}
+div.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.img-circle {
+    border: 1.5px solid #4097e9;
+    border-radius: 50%;
+    min-width: 150px;
+    min-height: 150px;
+    position: relative;
+}
+.circle-logo {
+    display: block;
+    top: 0px;
+    left: 0px;
+    align-content: center;
+    border-radius: 50%;
+    min-width: 100px;
+    min-height: 100px;
+    position: relative;
+}
+.quote {
+    font-variant: small-caps;
+    font-weight: 400;
+    font-family: 'Helvetica Neue';
+    font-style: italic;
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+    color: #4097e9;
+}
+li {
+    font-family: Roboto, Helvetica, 'Helvetica Neue', Arial;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
