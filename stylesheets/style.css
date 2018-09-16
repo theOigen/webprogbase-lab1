@@ -30,7 +30,7 @@ div.user-info {
     margin-left: 184px;
     margin-top: 10px;
 }
-div.user-info span.user-data {
+div.user-info span.data {
     font-size: 15pt;
     margin-top: 20px;
     display: block;
@@ -70,18 +70,17 @@ span.offline-dot {
 }
 div.u-table {
     background: #307dd6;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 .u-table table, td, th {
-    border: 1px solid #ddd;
-    text-align: left;
+    border: 2px solid #ddd;
+    text-align: center;
 }
 .u-table table {
     table-layout: fixed;
     border-collapse: collapse;
-    border-radius: 20px;
+    border-radius: 5px;
     border-style: hidden;
-    box-shadow: 0 0 0 1px #ddd;
     color: #fff;
     width: 100%;
 }
@@ -105,14 +104,10 @@ div.ent-list {
     padding: 20px;
     min-width: 870px;
 }
-.ent-list li {
-    padding: 5px;
-    margin: 15px;
-    background: white;
-    border-radius: 20px;
-}
 .ent-list a {
-    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    width: 800px;
     background: #307dd6;
     border-radius: 20px;
     color: white;
